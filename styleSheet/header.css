@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: "Inter", sans-serif;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.profile-text h3{
+    font-size: 25px;
+}
+
+
+.profile-text p{
+    font-size: 12px;
+}
+
+
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.navbar-section{
+    margin: 20px 0;
+    color: #000000a1;
+}
+
+.navbar-section ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-section li {
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-section .main-list {
+    background-color: #707070da;
+    color: #fdfdfd;
+}
+
+.navbar-section .list-hover:hover {
+    background-color: #dadada67;
+    color: #000;
+}
+
+
+
+/* media query */
+
+@media (max-width: 325px) {
+    .navbar-section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+    }
+
+    .navbar-section li {
+        font-size: 13px;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
+}
