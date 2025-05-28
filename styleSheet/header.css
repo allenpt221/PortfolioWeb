@@ -64,7 +64,7 @@
 
 /* media query */
 
-@media (max-width: 325px) {
+@media (max-width: 441px) {
     .navbar-section ul {
     list-style: none;
     display: flex;
